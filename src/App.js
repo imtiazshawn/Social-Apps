@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import Auth from "./Pages/Auth/Auth";
+import Home from "./Pages/Home/Home";
+import Profile from "./Pages/Profile/Profile";
+import {HashRouter, Routes, Route} from 'react-router-dom';
+import Signup from "./Components/ItemAuth/Signup";
+import Login from "./Components/ItemAuth/Login";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="blur" style={{top: "-18%", right: "0"}}></div>
+        <div className="blur" style={{top: "36%", left: "-8rem"}}></div>
+        <HashRouter>
+          <Routes>
+            <Route path='/' element={<Auth />} />
+            <Route path='/home' element={<Home />} />
+            <Route path='/profile' element={<Profile />} />
+            <Route path='/login' element={<Login />} />
+          </Routes>
+        </HashRouter>,
     </div>
   );
 }
