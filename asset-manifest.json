@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Social-Apps/static/css/main.165d0af8.css",
+    "main.js": "/Social-Apps/static/js/main.4c296390.js",
+    "static/media/elonmusk.jpg": "/Social-Apps/static/media/elonmusk.ddc5227ce7be3e45c656.jpg",
+    "static/media/postpic6.jpg": "/Social-Apps/static/media/postpic6.7c5f74981c2470d76ce2.jpg",
+    "static/media/postpic5.jpg": "/Social-Apps/static/media/postpic5.725d903c240a2671de26.jpg",
+    "static/media/imtiazshawn.jfif": "/Social-Apps/static/media/imtiazshawn.d433b06f861ba021332e.jfif",
+    "static/media/img1.png": "/Social-Apps/static/media/img1.a0fca9c51749c1ee3db5.png",
+    "static/media/img2.png": "/Social-Apps/static/media/img2.f5f922c9b93eaf2c4065.png",
+    "static/media/img3.png": "/Social-Apps/static/media/img3.6b1484548ee065fd59b5.png",
+    "static/media/postpic4.jpg": "/Social-Apps/static/media/postpic4.86659547ccf9903b0faf.jpg",
+    "index.html": "/Social-Apps/index.html",
+    "main.165d0af8.css.map": "/Social-Apps/static/css/main.165d0af8.css.map",
+    "main.4c296390.js.map": "/Social-Apps/static/js/main.4c296390.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.165d0af8.css",
+    "static/js/main.4c296390.js"
+  ]
+}
