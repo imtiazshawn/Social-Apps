@@ -21,7 +21,7 @@ export const postsData = [
     {
         img: postPic5,
         name: 'Elon Musk',
-        desc: "Money Can't but hapiness",
+        desc: "Money Can't buy hapiness",
         likes: 800,
         liked: false
     }
