@@ -14,9 +14,9 @@ function App() {
         <div className="blur" style={{top: "36%", left: "-8rem"}}></div>
         <HashRouter>
           <Routes>
-            <Route path='/' element={<Auth />} />
-            <Route path='/home' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/profile' element={<Profile />} />
+            <Route path='/Auth' element={<Auth />} />
             <Route path='/login' element={<Login />} />
           </Routes>
         </HashRouter>,

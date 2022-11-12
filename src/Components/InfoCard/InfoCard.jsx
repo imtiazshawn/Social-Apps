@@ -36,7 +36,7 @@ const InfoCard = () => {
             <span>React JS</span>
         </div>
 
-        <Link to="/" className='button logout-button'>Logout</Link>
+        <Link to="/Auth" className='button logout-button'>Logout</Link>
         
     </div>
   )

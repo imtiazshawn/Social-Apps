@@ -23,7 +23,7 @@ const Signup = () => {
                     <span style={{fontSize: '12px'}}>Already have an account?
                     <Link to="/login" className='link-l'> Login</Link></span>          
                 </div>
-                  <Link to="/home" className='button info-button'>Signup</Link>
+                  <Link to="/" className='button info-button'>Signup</Link>
             </form>
 
             
